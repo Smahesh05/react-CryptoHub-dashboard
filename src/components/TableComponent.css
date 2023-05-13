@@ -1,0 +1,89 @@
+.table-container {
+}
+
+.table-header {
+  display: flex;
+  gap: 1em;
+  color: #808191;
+}
+
+.table-active {
+  color: #fff;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #3772ff;
+}
+
+.table-head {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #191b20;
+  border-radius: 8px;
+  height: 40px;
+  margin-bottom: 0;
+}
+
+.table-head li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #808191;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 0.3em;
+  padding: 0;
+  margin-bottom: inherit;
+  gap: 0.6em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table-body li {
+  display: flex;
+  width: -webkit-fill-available;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #24273166;
+  justify-content: space-between;
+}
+
+.child {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.table-body p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+
+  color: #ffffff;
+}
+
+.table-body li span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #808191;
+}
+
+.list-child-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: em;
+}

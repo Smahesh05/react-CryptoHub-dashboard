@@ -1,0 +1,106 @@
+.left-sidebar {
+  min-width: 250px;
+  border-right: 1px solid gray;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.user-name {
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.5618px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.user-img {
+  background-color: #3772ff;
+  width: 29.82px;
+  height: 28.24px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.7em;
+  color: #fefefe;
+}
+
+.sidebar-bottom {
+  margin-top: 12rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 0.6em;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 0.2em 1em;
+  border: none;
+  outline: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  background: #353945;
+  gap: 0.6em;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #a3e3ff;
+  color: #3772ff;
+}
+
+.bottom-toggle {
+  margin-top: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+
+.toggle-mode {
+  display: flex;
+  justify-content: center;
+  padding: 0.2em 1em;
+  gap: 0.5em;
+  align-items: center;
+  background: #353945;
+  border-radius: 12px;
+}
+
+.dark-toggle {
+  color: #808191;
+}
+
+.light-toggle {
+  font-size: 20px;
+  color: #3772ff;
+}

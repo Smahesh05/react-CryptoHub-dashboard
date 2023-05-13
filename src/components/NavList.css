@@ -1,0 +1,30 @@
+.leftsidebar-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 1rem;
+  padding-left: 0;
+  margin: 1rem 1rem 0rem 1rem;
+}
+.leftsidebar-list-item {
+  color: #808191;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #353945;
+  mix-blend-mode: normal;
+  color: #fff;
+  padding: 0.5em 1em;
+  width: 90%;
+  border-radius: 12px;
+}

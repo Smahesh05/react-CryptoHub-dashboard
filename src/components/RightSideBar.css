@@ -1,0 +1,124 @@
+.right-sidebar-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.right-sidebar-1 {
+  display: flex;
+  gap: 1.6em;
+}
+
+.avalanche {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.0211px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  color: #ffffff;
+  background-color: #353945;
+  padding: 0.1em 0.4em;
+  border-radius: 12px;
+}
+
+.avalanche img {
+  height: 20px;
+  width: 20px;
+}
+
+.wallet-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.1em 1em;
+  border-radius: 12px;
+  border: 1px solid #3772ff;
+  letter-spacing: 0.315952px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.right-sidebar-2 {
+  width: 333.94px;
+  height: 227.37px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-sidebar-2 a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 48px;
+}
+
+.form-control {
+  background-color: #353945;
+  outline: none;
+  width: 100%;
+  border: none;
+  margin-bottom: 1.5em;
+  border-radius: 12px;
+  padding: 1em 0;
+}
+
+::placeholder {
+  padding: 1em 1.2em;
+}
+
+.custom-link {
+  display: flex;
+  gap: 0.8em;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-link-btn {
+  background: #3772ff;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.cancel-btn {
+  border: 1px solid #242731;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
