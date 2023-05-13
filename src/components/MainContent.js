@@ -13,10 +13,14 @@ const MainContent = () => {
       <section>
         <div className="section-header">
           <h3 className="">Section</h3>
-          <button className="btn ">
-            <BsBoxArrowInRight />
-            <span>0.2 $iBFR</span>
-            <span>Tire 1</span>
+          <button className="btn section-header-btn">
+            <span className="logo-sec">
+              <BsBoxArrowInRight />
+            </span>
+            <div>
+              <span>0.2 $iBFR</span>
+              <span>Tire 1</span>
+            </div>
           </button>
         </div>
         <div className="main-content">

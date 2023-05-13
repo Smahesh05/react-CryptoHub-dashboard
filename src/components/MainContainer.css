@@ -41,6 +41,12 @@
   gap: 0.7em;
   text-transform: uppercase;
   color: #ffffff;
+  border: 1px solid #3772ff;
+}
+
+.logo-sec {
+  color: #3772ff;
+  font-size: 1.3em;
 }
 
 .main-content {
